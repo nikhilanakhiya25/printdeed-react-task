@@ -30,7 +30,6 @@ const FONTS = [
 function PatternBg({ pattern, color }) {
   if (pattern === "none") return null;
   const opacity = 0.12;
-  const c = color + "33";
   if (pattern === "dots")
     return (
       <div
